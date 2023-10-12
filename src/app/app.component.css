@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Establece el color de fondo a negro */
+  }
+  
+  .container-fluid {
+    height: 100%;
+  }
+
+.content {
+    margin-top: 10%; /* Ajusta el porcentaje según tus necesidades */
+  }

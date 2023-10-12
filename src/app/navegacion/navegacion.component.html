@@ -1,0 +1,47 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="sidebar d-lg-block" [ngClass]="{ 'open': isNavOpen, 'closed': !isNavOpen }">
+            <div class="logo_details" style="color: white;">
+                <i class="bx bxl-audible icon"></i>
+                <div class="logo_name">Navigation</div>
+                <i class="bx bx-menu" id="btn"></i>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <input class="bx bx-search" (input)="handleChange($event)" (click)="toggleCampoBusqueda()" style="color: white;" />
+                    <div>
+                        <input style="color: white;" type="text"
+                        [placeholder]="mostrarCampoBusqueda ? 'Search...' : ''"
+                        #campoBusqueda
+                        >
+                    </div>
+                    <!-- <span class="tooltip">Search</span> -->
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-home"></i>
+                        <span class="link_name">Home</span>
+                    </a>
+                    <span class="tooltip">Home</span>
+                </li>
+                <li>
+                    <a [routerLink]="['/jugadores']" routerLinkActive="router-link-active">
+                        <i class="bx bx-bomb"></i>
+                        <span class="link_name">Agregar Jugador</span>
+                    </a>
+                    <span class="tooltip">Agregar Jugador</span>
+                </li>
+                <li>
+                    <a [routerLink]="['/listado-jugadores']" routerLinkActive="router-link-active">
+                        <i class="bx bx-mobile-alt"></i>
+                        <span class="link_name">Listado de Jugadores</span>
+                    </a>
+                    <span class="tooltip">Listado de Jugadores</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

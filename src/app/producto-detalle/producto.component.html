@@ -1,0 +1,9 @@
+<div class="card mb-3" *ngIf="jugador">
+    <img [src]="jugador.imagenURL" class="card-img-top" alt="{{ jugador.nombre }}">
+    <div class="card-body">
+        <h5 class="card-title">{{ jugador.nombre }}</h5>
+        <p class="card-text">TPrecio: {{ jugador.posicion }}</p>
+        <button [routerLink]="['/jugadors']" routerLinkActive="router-link-active"
+            class="btn btn-primary">Volver</button>
+    </div>
+</div>

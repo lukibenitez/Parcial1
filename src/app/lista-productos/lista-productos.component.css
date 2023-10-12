@@ -1,0 +1,5 @@
+/* Estilo para que la imagen ocupe todo el ancho de la tarjeta */
+.card-img-top {
+    width: 100%;
+    max-height: auto; /* Esto mantiene la proporción original de la imagen */
+  }

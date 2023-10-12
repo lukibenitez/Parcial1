@@ -1,0 +1,16 @@
+[
+    { "id": 1, "nombre": "Manzanas", "precio": 2.99, "stock": 100, "imagenURL": "../assets/image/manzana.jpg" },
+    { "id": 2, "nombre": "Bananas", "precio": 1.49, "stock": 50, "imagenURL": "../assets/image/banana.jpg" },
+    { "id": 3, "nombre": "Frutillas", "precio": 3.99, "stock": 200, "imagenURL": "../assets/image/frutilla.jpg" },
+    { "id": 4, "nombre": "Uvas", "precio": 4.99, "stock": 75, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 5, "nombre": "Peras", "precio": 2.79, "stock": 120, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 6, "nombre": "Naranjas", "precio": 3.49, "stock": 30, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 7, "nombre": "Kiwi", "precio": 2.69, "stock": 60, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 8, "nombre": "Sandía", "precio": 5.99, "stock": 150, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 9, "nombre": "Melón", "precio": 4.49, "stock": 80, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 10, "nombre": "Papas", "precio": 1.99, "stock": 110, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 11, "nombre": "Zanahorias", "precio": 2.49, "stock": 40, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 12, "nombre": "Lechuga", "precio": 1.79, "stock": 180, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 13, "nombre": "Tomates", "precio": 2.29, "stock": 95, "imagenURL": "../assets/image/naranja.jpg" },
+    { "id": 14, "nombre": "Pimientos", "precio": 3.29, "stock": 55, "imagenURL": "../assets/image/naranja.jpg" }
+]
