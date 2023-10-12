@@ -38,8 +38,21 @@ export class ListaProductosComponent implements OnInit {
             }
         } else if (this.jugadores.length < 23) {
             // Genera una nueva URL de imagen para cada jugador (puedes personalizar esto según tus necesidades)
-            const imagenURL = `imagen_${this.contadorId}.jpg`;
-    
+            let imagenURL = '';
+            switch (posicion) {
+                case 'delantero':
+                    imagenURL = '../../assets/image/imagen_1.jpg';
+                    break;
+                case 'mediocampista':
+                    imagenURL = '../../assets/image/imagen_2.jpg';
+                    break;
+                case 'defensa':
+                    imagenURL = '../../assets/image/imagen_3.jpg';
+                    break;
+                case 'arquero':
+                    imagenURL = '../../assets/image/imagen_4.jpeg';
+                    break;
+            }
             // Agrega el nuevo jugador a la lista
             this.jugadores.push({
                 id: this.contadorId,

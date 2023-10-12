@@ -13,7 +13,7 @@
                     <p class="card-text">Posición: {{ jugador.posicion }}</p>
                     <button class="btn btn-danger" (click)="borrarJugador(jugador.id)">Borrar</button>
                     <button class="btn btn-block btn-outline-success card-button card-button-container"
-                        [routerLink]="['/jugadores', jugador.id]" routerLinkActive="router-link-active">Ver
+                        [routerLink]="['/jugadores-detalle', jugador.id]" routerLinkActive="router-link-active">Ver
                         Detalle</button>
                 </div>
             </div>
